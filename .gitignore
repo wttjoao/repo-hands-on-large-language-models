@@ -1,0 +1,91 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+hf_env/
+.venv/
+
+# Local environment configs
+*.env
+*.env.local
+.env.*
+
+# -------------------------
+# Hugging Face cache
+# -------------------------
+# Hugging Face datasets & models cache
+~/.cache/
+.cache/
+huggingface/
+huggingface_cache/
+models/
+models--*/
+datasets/
+
+# Transformers downloads
+*.bin
+*.safetensors
+
+# SentenceTransformers cached models
+sentence-transformers/
+
+# -------------------------
+# System / OS-specific
+# -------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+
+# VSCode
+.vscode/
+
+# JetBrains (PyCharm)
+.idea/
+
+# Other editors
+*.swp
+*.swo
+
+# -------------------------
+# Logs & temp
+# -------------------------
+logs/
+*.tmp
+temp/
+tmp/
+
+# -------------------------
+# Builds / Packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
